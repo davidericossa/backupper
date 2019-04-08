@@ -1,0 +1,51 @@
+{
+  "source": "/home/davide/Documents/provabkup/from",
+  "devices": [
+    { "name": "to",
+      "mount_point":"/home/davide/Documents/provabkup",
+      "configs": [
+        {
+          "name": "every minute",
+          "path": "iminute",
+          "frequency": {
+            "minutes": 1,
+            "hours": 0,
+            "days": 0,
+            "weeks": 0,
+            "months": 0,
+            "years":0
+          }
+        },
+        {
+          "name": "every five minutes",
+          "path": "vminutes",
+          "frequency": {
+            "minutes": 5,
+            "hours": 0,
+            "days": 0,
+            "weeks": 0,
+            "months": 0,
+            "years":0
+          } 
+        }
+      ]
+    },
+    { "name": "fake",
+      "mount_point":"/home/davide/Documents/provabkup",
+      "configs": [
+        {
+          "name": "every minute",
+          "path": "iminute",
+          "frequency": {
+            "minutes": 1,
+            "hours": 0,
+            "days": 0,
+            "weeks": 0,
+            "months": 0,
+            "years":0
+          }
+        }
+      ]
+    }
+  ]
+}
